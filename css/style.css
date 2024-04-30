@@ -1,19 +1,17 @@
-body{
-    background-color: rgb(0, 0, 0);
+body {
+	
 }
 
-h1, a, p {
-    color: rgb(255, 255, 255);
-
+.cool {
+	visibility: hidden;
+	width: 100px;
+	height:100px;
+	background-color: green;
+	transition: background-color 2s;
 }
 
-.cool{
-    width: 100px;
-    height: fixed;
-    background-color: rgb(73, 0, 0);
-    transition: background-color 5s;
-}
+.cool.red {
+	visibility: visible;
+	background-color: red;
 
-.cool.red{
-    background-color: blue;
 }
