@@ -8,18 +8,18 @@ var changeState = function (state){
 	document.getElementById('countdown').innerHTML = countdownNumber;
 
 
-	//countdown
+
 	if (state == 2) {
 		timer = setInterval(function(){
 			countdownNumber = countdownNumber - 1;
 			document.getElementById('countdown').innerHTML = countdownNumber;
 			
 			if (countdownNumber == 5) {
-				//be nervous
+				
 			};
 
 			if (countdownNumber == 3) {
-				//can't wait
+		
 			};
 
 
@@ -36,11 +36,11 @@ var changeState = function (state){
 			var randomNumber = Math.round(Math.random()*10);
 				console.log('randomNumber:', randomNumber)
 
-			//success
+			
 			if (randomNumber > 1) {
 			changeState(4);
 			} else { 
-			changeState(5); //oh no!!
+			changeState(5); 
 			}
 		}, 2000);
 	}
