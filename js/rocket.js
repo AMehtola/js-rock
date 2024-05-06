@@ -15,14 +15,9 @@ var changeState = function (state){
 			document.getElementById('countdown').innerHTML = countdownNumber;
 			
 			if (countdownNumber == 5) {
-				
 			};
-
 			if (countdownNumber == 3) {
-		
 			};
-
-
 			if (countdownNumber <= 0) {
 				
 				changeState(3);

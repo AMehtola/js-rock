@@ -16,16 +16,17 @@ var sayMyName = function (name) {
 }
 
 var car = {
-	make: 'Toyata',
-	type: 'Camry',
-	color: 'grey',
+	make: 'WolksWagen',
+	type: 'Passat',
+	color: 'DarkBlue',
 	isTurnedOn: false,
 	numberOfWheels: 4,
 	seats: [
 		'seat 1', 
 		'seat 2', 
 		'seat 3', 
-		'seat 4'
+		'seat 4',
+		'seat 5'
 	],
 		turnOn: function () {
 			this.isTurnedOn = true;
